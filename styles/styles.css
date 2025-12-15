@@ -87,7 +87,7 @@ aside header{
 /* search*/
 .busqueda{
     background-color: var(--verde-azul);
-    padding: 5px;
+    padding: 10px;
 }
 
 .busqueda form input{
@@ -101,3 +101,27 @@ aside header{
     color: var(--blanco-text);
 }
 
+.chats ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.chat-user{
+        background-color: var(--verde-azul);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.chat-user img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.chat-user:hover{
+    background-color: var(--verde-head);
+    cursor: pointer;
+}
