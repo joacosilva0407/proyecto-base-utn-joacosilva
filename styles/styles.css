@@ -6,12 +6,81 @@
 }
 
 :root{
-    --verde-oscuro: #075E54;
+    --fondo-principal: #121212;
     --verde-azul: #128C7E;
-    --verde-brilli: #25D366;
-    --verde-claro: #DCF8C6;
+    --verde-head: #075E54;
+    --blanco-text: #ECE5DD;
+    --gris-back: #161C20;
     --azul: #34B7F1;
-    --crema: #ECE5DD;
 
     --primary-font: "Roboto", sans serif;
 }
+
+body{
+    background-color: var(--fondo-principal);
+    padding: 30px;
+}
+
+.app{
+    background-color: var(--verde-azul);
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+/* estilos aside */
+aside{
+    background-color: beige;
+    color: white;
+}
+
+aside header{
+    background-color: var(--verde-head);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil img{
+    gap: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.perfil h2{
+    font-size: 15px;
+
+}
+.botones{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.botones button{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #075E54;
+    color: #ECE5DD;
+    transition: transform .2s;
+}
+
+.botones button svg{
+    width: 20px;
+}
+
+.botones button:hover{
+    background-color: var(--verde-azul);
+    transform: translateY(-4px);
+}
+
