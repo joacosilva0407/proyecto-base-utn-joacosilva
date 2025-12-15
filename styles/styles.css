@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --verde-oscuro: #075E54;
+    --verde-azul: #128C7E;
+    --verde-brilli: #25D366;
+    --verde-claro: #DCF8C6;
+    --azul: #34B7F1;
+    --crema: #ECE5DD;
+}
