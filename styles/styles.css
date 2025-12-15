@@ -127,3 +127,69 @@ aside header{
     background-color: var(--verde-head);
     cursor: pointer;
 }
+
+/* Header del chat*/
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.perfil-chat{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.perfil-chat img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre h3 {
+    margin: 0;
+    color: black;
+}
+
+.nombre p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.botones-panel {
+    display: flex;
+    gap: 10px;
+}
+
+.botones-panel button {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #128C7E;
+    color: #ECE5DD;
+    transition: transform .2s;
+}
+
+.botones-panel{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.botones-panel button svg{
+    width: 20px;
+}
+
+.botones-panel button:hover{
+    background-color: #075E54;
+    transform: translateY(-4px);
+}
