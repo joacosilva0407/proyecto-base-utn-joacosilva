@@ -84,3 +84,20 @@ aside header{
     transform: translateY(-4px);
 }
 
+/* search*/
+.busqueda{
+    background-color: var(--verde-azul);
+    padding: 5px;
+}
+
+.busqueda form input{
+    background-color: var(--verde-head);
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    color: var(--blanco-text);
+}
+
