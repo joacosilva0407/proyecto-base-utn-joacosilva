@@ -84,7 +84,7 @@ aside header{
     transform: translateY(-4px);
 }
 
-/* search*/
+/* search */
 .busqueda{
     background-color: var(--verde-azul);
     padding: 10px;
@@ -101,6 +101,8 @@ aside header{
     color: var(--blanco-text);
 }
 
+
+/* Chats hay que modificar los colores, quedan horripilantes */
 .chats ul{
     list-style: none;
     display: flex;
