@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,27 +7,28 @@
 
 /* variables */
 
-:root{
+:root {
     --primary-font: "Roboto", sans serif;
 }
 
-body{
+body {
     background-color: #d4ffc9;
     padding: 30px;
 }
 
-.app{
+.app {
     display: grid;
     grid-template-columns: 350px 1fr;
     height: 90vh;
 }
 
 /* estilos aside */
-aside{
+
+aside {
     background-color:  #ffffff;
 }
 
-aside header{
+aside header {
     background-color: #075E54;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,31 +37,31 @@ aside header{
     gap: 20px;
     padding: 10px;
     color: #ffffff;
-
 }
-.perfil{
+
+.perfil {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.perfil img{
+.perfil img {
     gap: 5px;
     width: 40px;
     border-radius: 50%;
 }
 
-.perfil h2{
+.perfil h2 {
     font-size: 15px;
-
 }
-.botones{
+
+.botones {
     display: flex;
     justify-content: end;
     gap: 5px;
 }
 
-.botones button{
+.botones button {
     padding: 5px;
     border: none;
     border-radius: 8px;
@@ -70,11 +71,11 @@ aside header{
     transition: transform .2s;
 }
 
-.botones button svg{
+.botones button svg {
     width: 20px;
 }
 
-.botones button:hover{
+.botones button:hover {
     background-color: #075E54;
     transform: translateY(-4px);
 }
@@ -86,7 +87,7 @@ aside header{
     padding: 10px;
 }
 
-.busqueda form input{
+.busqueda form input {
     background-color: #ffffff;
     width: 100%;
     display: block;
@@ -98,14 +99,15 @@ aside header{
 
 
 /* Chats hay que modificar los colores, quedan horripilantes */
-.chats ul{
+
+.chats ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.chat-user{
+.chat-user {
     background-color: #ffffff;
     display: flex;
     padding: 10px;
@@ -113,12 +115,12 @@ aside header{
     gap: 10px;
 }
 
-.chat-user img{
+.chat-user img {
     border-radius: 50%;
     width: 50px;
 }
 
-.chat-user:hover{
+.chat-user:hover {
     background-color: #ededed;
     cursor: pointer;
 }
@@ -133,13 +135,13 @@ aside header{
     padding: 10px;
 }
 
-.perfil-chat{
+.perfil-chat {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.perfil-chat img{
+.perfil-chat img {
     width: 50px;
     border-radius: 50%;
 }
@@ -175,23 +177,24 @@ aside header{
     transition: transform .2s;
 }
 
-.botones-panel{
+.botones-panel {
     display: flex;
     justify-content: end;
     gap: 5px;
 }
 
-.botones-panel button svg{
+.botones-panel button svg {
     width: 20px;
 }
 
-.botones-panel button:hover{
+.botones-panel button:hover {
     background-color: #d0d0d0;
     transform: translateY(-4px);
 }
+
 /* chat */
 
-.chat-panel{
+.chat-panel {
     display: flex;
     flex-direction: column;
     min-height: 0;
@@ -215,14 +218,14 @@ aside header{
     width: 30%;
 }
 
-.mensaje .hora{
+.mensaje .hora {
     color: gray;
     font-size: 12px;
     margin-top: 10px;
     text-align: end;
 }
 
-.enviado{
+.enviado {
     align-self: end;
     background-color: #d8f6c0;
 }
@@ -238,18 +241,18 @@ footer {
     gap: 10px;
 }
 
-footer button{
+footer button {
     width: 30px;
     height: 30px;
     padding: 5px;
 }
 
-footer svg{
+footer svg {
     width: 100%;
     height: 100%;
 }
 
-footer .adjunto{
+footer .adjunto {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -257,17 +260,17 @@ footer .adjunto{
     transition: color .2s;
 }
 
-footer .adjunto:hover{
+footer .adjunto:hover {
     color: black;
 }
 
-footer form{
+footer form {
     display: flex;
     align-items: center;
     flex: 1;
 }
 
-footer textarea{
+footer textarea {
     padding: 8px;
     resize: none;
     border-radius: 15px;
