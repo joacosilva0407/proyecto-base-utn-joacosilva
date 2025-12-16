@@ -5,42 +5,37 @@
     font-family: var(--primary-font);
 }
 
-:root{
-    --fondo-principal: #121212;
-    --verde-azul: #128C7E;
-    --verde-head: #075E54;
-    --blanco-text: #ECE5DD;
-    --gris-back: #161C20;
-    --azul: #34B7F1;
+/* variables */
 
+:root{
     --primary-font: "Roboto", sans serif;
 }
 
 body{
-    background-color: var(--fondo-principal);
+    background-color: #d4ffc9;
     padding: 30px;
 }
 
 .app{
-    background-color: var(--verde-azul);
     display: grid;
     grid-template-columns: 350px 1fr;
+    height: 90vh;
 }
 
 /* estilos aside */
 aside{
-    background-color: beige;
-    color: white;
+    background-color:  #ffffff;
 }
 
 aside header{
-    background-color: var(--verde-head);
+    background-color: #075E54;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     padding: 10px;
+    color: #ffffff;
 
 }
 .perfil{
@@ -80,25 +75,25 @@ aside header{
 }
 
 .botones button:hover{
-    background-color: var(--verde-azul);
+    background-color: #075E54;
     transform: translateY(-4px);
 }
 
 /* search */
+
 .busqueda{
-    background-color: var(--verde-azul);
+    background-color: #ffffff;
     padding: 10px;
 }
 
 .busqueda form input{
-    background-color: var(--verde-head);
+    background-color: #ffffff;
     width: 100%;
     display: block;
-    border: none;
-    padding: 3px;
-    border-radius: 3px;
+    border: solid black 1px;
+    padding: 8px;
+    border-radius: 15px;
     outline: none;
-    color: var(--blanco-text);
 }
 
 
@@ -111,7 +106,7 @@ aside header{
 }
 
 .chat-user{
-        background-color: var(--verde-azul);
+    background-color: #ffffff;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -124,13 +119,14 @@ aside header{
 }
 
 .chat-user:hover{
-    background-color: var(--verde-head);
+    background-color: #ededed;
     cursor: pointer;
 }
 
 /* Header del chat*/
 
 .chat-header {
+    background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,8 +170,8 @@ aside header{
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #128C7E;
-    color: #ECE5DD;
+    background-color: #f2f2f2;
+    color: #3d3d3d;
     transition: transform .2s;
 }
 
@@ -190,7 +186,7 @@ aside header{
 }
 
 .botones-panel button:hover{
-    background-color: #075E54;
+    background-color: #d0d0d0;
     transform: translateY(-4px);
 }
 /* chat */
@@ -199,6 +195,7 @@ aside header{
     display: flex;
     flex-direction: column;
     min-height: 0;
+    background-color: #ECE5DD;
 }
 
 .mensajes {
@@ -211,7 +208,7 @@ aside header{
 }
 
 .mensaje {
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, .238);
     padding: 10px;
@@ -227,14 +224,14 @@ aside header{
 
 .enviado{
     align-self: end;
-    background-color: turquoise;
+    background-color: #d8f6c0;
 }
 
 /* footer estilos */
 
 footer {
     display: flex;
-    background-color: gray;
+    background-color: #d9d9d9;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -256,12 +253,12 @@ footer .adjunto{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: var(--verde-azul);
+    color: gray;
     transition: color .2s;
 }
 
 footer .adjunto:hover{
-    color: var(--gris-back);
+    color: black;
 }
 
 footer form{
@@ -279,20 +276,14 @@ footer textarea{
 }
 
 footer .enviar {
-    background-color: rgb(113, 30, 30);
+    background-color: #128C7E;
     border: none;
     color: black;
     width: 50px;
     height: 35px;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 5px;
     cursor: pointer;
-    transition: all 1s;
-}
-
-footer .enviar:hover{
-    background-color: thistle;
-    transform: scale(1);
 }
 
 @media (max-width:900px){
